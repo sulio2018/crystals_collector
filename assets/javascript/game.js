@@ -24,14 +24,14 @@ $(document).ready(function () {
     //set up functions and .onclick events
 
     function win() {
-        wins = wins++;
+        wins = wins + 1;
         $("#wins").html(wins);
         gameRestartOne();
         gameRestartTwo();
     }
 
     function lose() {
-        losses = losses++;
+        losses = losses + 1;
         $("#losses").html(losses);
         gameRestartOne();
         gameRestartTwo();
@@ -97,16 +97,16 @@ $(document).ready(function () {
 
     function gameRestartOne() {
         totalScore = 0;
-        $("#totalScore").html(totalScore);
+        $("#total-score-number").html(totalScore);
     }
 
     function gameRestartTwo() {
-        targetNumber = Math.floor(Math.random() * ((120 - 19) + 1) + 19);
+        targetNumber = 19 + Math.floor(Math.random() * 120);
         $("computer-number").html(targetNumber);
-        crystalOne = Math.floor(Math.random() * 12) + 1;
-        crystalTwo = Math.floor(Math.random() * 12) + 1;
-        crystalThree = Math.floor(Math.random() * 12) + 1;
-        crystalFour = Math.floor(Math.random() * 12) + 1;
+        crystalOne = 1 + Math.floor(Math.random() * 12);
+        crystalTwo = 1 + Math.floor(Math.random() * 12);
+        crystalThree = 1 + Math.floor(Math.random() * 12);
+        crystalFour = 1 + Math.floor(Math.random() * 12);
     }
 
 
