@@ -102,7 +102,7 @@ $(document).ready(function () {
 
     function gameRestartTwo() {
         targetNumber = 19 + Math.floor(Math.random() * 120);
-        $("computer-number").html(targetNumber);
+        $("#computer-number").html(targetNumber);
         crystalOne = 1 + Math.floor(Math.random() * 12);
         crystalTwo = 1 + Math.floor(Math.random() * 12);
         crystalThree = 1 + Math.floor(Math.random() * 12);
