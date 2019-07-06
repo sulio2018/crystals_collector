@@ -1,3 +1,56 @@
-.container {
-    margin-left: 0;
+body {
+    background: url("../images/wallpaper.jpg");
+}
+
+h2 {
+    background-color: coral;
+    color: snow;
+    text-align: center;
+    padding: 10px;
+}
+
+.instructions {
+    color: green;
+    background: peachpuff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.computer-score {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.random-number {
+    font-size: 75px;
+    font-weight: bold;
+    background-color: lime;
+    color: blue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wins-losses-text {
+    font-size: 20px;
+    font-weight: bold;
+    background: turquoise;
+    color: darkgreen;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.total-score-text {
+    font-size: 25px;
+    background: teal;
+    text-align: center;
+    color: snow;
+}
+
+.total-score {
+    font-size: 75px;
+    background: teal;
+    text-align: center;
+    color: snow;
 }

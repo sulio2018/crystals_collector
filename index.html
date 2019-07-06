@@ -16,22 +16,27 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
-                
+
                 <h2>CrystalsCollector! <span id="name-of-game"></span></h2><br>
-                
+
             </div>
         </div>
 
         <div class="row">
             <div class="col-6">
-                
-                <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
-                    your final score.</p>
-                <p>You win the game by matching your total score to random number, you lose the game if your total score
-                    goes above the random number.</p>
-                <p>The value of each crystal is hidden from you until you click on it.</p>               
-                <p>Each time when the game starts, the game will change the value of each crystal.</p>
+
+                <div class="instructions">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        to
+                        your final score.</p>
+                    <p>You win the game by matching your total score to random number, you lose the game if your total
+                        score
+                        goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the value of each crystal.</p>
+                </div>
+
 
             </div>
         </div>
@@ -39,44 +44,50 @@
         <div class="row">
             <div class="col-3">
 
-                <p id="computer-number"></p>
+                <br>
+                <p class="random-number" id="computer-number"></p>
 
             </div>
 
             <div class="col-3">
-                <p>Wins:</p>
-                <p id="wins">0</p>
-                <p>Losses:</p>
-                <p id="losses">0</p><br>
+                <br>
+                <div class="wins-losses-text">
+                    <p id="wins">Wins: 0</p>
+                    <p id="losses">Losses: 0</p><br>
+                </div>
+
             </div>
         </div>
 
         <div class="row">
             <div class="col-6">
 
-                <img src="assets/images/crystal1.jpg" width="100" height="100" class="rounded float-left"
+                <img src="assets/images/crystal1.jpg" width="135" height="115" class="rounded float-left"
                     alt="crystal image" class="crystal-image" id="img1">
-                <img src="assets/images/crystal2.jpg" width="100" height="100" class="rounded float-left"
+                <img src="assets/images/crystal2.jpg" width="135" height="115" class="rounded float-left"
                     alt="crystal image" class="crystal-image" id="img2">
-                <img src="assets/images/crystal3.jpg" width="100" height="100" class="rounded float-left"
+                <img src="assets/images/crystal3.jpg" width="135" height="115" class="rounded float-left"
                     alt="crystal image" class="crystal-image" id="img3">
-                <img src="assets/images/crystal4.jpg" width="100" height="100" class="rounded float-left"
+                <img src="assets/images/crystal4.jpg" width="135" height="115" class="rounded float-left"
                     alt="crystal image" class="crystal-image" id="img4"><br>
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col-4">
+            <div class="col-3">
 
-                <br><p>Your total score is:</p>
+                <br>
+                <p class="total-score-text">Your total score is:</p>
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col-4">
-                <p id="total-score-number"></p>
+            <div class="col-3">
+                <div class="total-score">
+                    <p id="total-score-number"></p>
+                </div>
             </div>
         </div>
     </div>

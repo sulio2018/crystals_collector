@@ -25,14 +25,14 @@ $(document).ready(function () {
 
     function win() {
         wins = wins + 1;
-        $("#wins").html(wins);
+        $("#wins").html("Wins: " + wins);
         gameRestartOne();
         gameRestartTwo();
     }
 
     function lose() {
         losses = losses + 1;
-        $("#losses").html(losses);
+        $("#losses").html("Losses: " + losses);
         gameRestartOne();
         gameRestartTwo();
     }
