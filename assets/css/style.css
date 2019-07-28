@@ -59,5 +59,13 @@ h2 {
     .main-container {
       width: 665px;
     }
+
+    #img1, #img2, #img3, #img4 {
+        margin-top: 10px;
+    }
+
+    #img2, #img3 {
+        margin-left: 22px;
+    }
   }
 
